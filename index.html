@@ -1,12 +1,13 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <div class="bodyWrapper">
             <!-- Sidebar Navigation -->
-            <div class="sidebarNav">
+            <div class="sidebarNav v-Class">
                 <!-- NavContent -->
                 <div class="NavContent">
                     <div class="navs">
@@ -92,14 +93,21 @@
 
             <!-- Main Content -->
             <div class="mainContent">
+                <!-- responsiveHeader -->
+                <div class="responsiveHeader">
+                    <div class="resHeaderWrap">
+                        <img src="./images/Logo.svg" width="142px" height="32px"/>
+                        <img src="./images/_Application nav menu button.svg" width="40px" height="40px"/>
+                    </div>
+                </div>
                 <!-- page header -->
                 <div class="pageHeader">
                     <div class="imgWrap"> <img class="imgStyle" src="./images//Image (2).png"></img> </div>
                     <div class="container">
-                        <div class="subContainer">
+                        <div class="subContainer flexColumn">
                             <div class="avtarPicWrap"><img class="avtarPicStyle" src="./images/Avatar profile photo.svg"/></div>
                             <div class="content">
-                                <div class="heading">
+                                <div class="heading flexColumn">
                                     <div class="text">
                                         <p style="color: #101828; font-weight: bold; font-size: 34px;">Olivia Rhye</p>
                                         <p style="color: #475467; font-size: 20px;align-self: stretch;">olivia@untitledui.com</p>
@@ -122,14 +130,14 @@
                 <div class="sections">
                     <div class="container">
                         <div class="form">
-                            <div class="contentSection">
+                            <div class="contentSection flexColumn">
                                 <div class="LHStext">
                                     <p class="textA">Personal info</p>
                                     <p class="textB">Update your photo and personal details.</p>
                                 </div>
                                 <div class="RHSform">
                                     <div class="content">
-                                        <div class="nameFields">
+                                        <div class="nameFields flexColumn">
                                             <div class="InputField">
                                                 <div class="InputContainer">
                                                     <p class="lableStyle">First name</p>
@@ -152,7 +160,7 @@
                                                 </div></div>
                                             </div>
                                         </div>
-                                        <div class="avtarAndFile">
+                                        <div class="avtarAndFile flexColumn">
                                             <img style="width: 64px; height: 64px;" src="./images/Avatar.png"/>
                                             <div class="fileUploadContainer">
                                                 <div class="fileUploadContainer2">
@@ -180,7 +188,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="contentSection">
+                            <div class="contentSection flexColumn">
                                 <div class="LHStext">
                                     <p class="textA">Profile</p>
                                     <p class="textB">Update your portfolio and bio.</p>
